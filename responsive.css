@@ -1,0 +1,474 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) and (max-width:2000px) {
+    .navbar-area {
+        transform: translateX(0%);
+        left: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .container{
+        max-width: 1620px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1500px) {
+    .img-top img {
+        width: 100%;
+    }
+    /* sub menu */
+    .item-button:hover>.sub-menu {
+        top: 143px;
+    }
+    .navBar-bottom{
+        padding: 14px;
+    }
+    .navBar-top-left ul li p {
+        color: var(--primary-color-white);
+        font-size: 14px;
+    }
+    .navBar-bottom-right.d-flex.justify-content-between.align-items-center {
+        justify-content: end !important;
+    }
+    .navBar-bottom-right .dropdown {
+        border: 1px solid var(--border-one);
+        margin-right: 10%;
+    }
+    .menu-items ul {
+        text-align: end;
+    }
+    section.hero-section:before {
+        height: 60%;
+    }
+    img.img-bottom-style-one {
+        width: 57%;
+    }
+    .img-bottom .img-bottom-style {
+        position: absolute;
+        top: -104px;
+        left: 60%;
+        width: 40%;
+    }
+    .our-company-right-card .ellipse {
+        position: absolute;
+        top: 68px;
+        right: -102px;
+        width: 32%;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    .navBar-slider .item h1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .navBar-top-left ul li {
+        display: inline-block;
+        margin-right: 6px;
+        padding: 13px 22px;
+        /* margin-left: 8px; */
+    }
+    .menu-items li {
+        margin-right: 14px;
+    }
+    .menu-items a {
+    font-size: 15px;
+    }
+    .our-company-left-card ul li {
+        display: inline-block;
+        margin-bottom: 40px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .solution-items {
+        width: 100%;
+    }
+    .our-company-left-card ul li i {
+        width: auto;
+        height: auto;
+        color: var(--button-color);
+    }
+    .p-335 {
+        padding: 135px 135px 83px 135px;
+    }
+    .experience-card {
+        top: 26%;
+        right: -35px;
+    }
+    .footer-forth-col .form-control {
+        padding: 9px 9px !important;
+        border-radius: 4px !important;
+        font-size: 14px;
+    }
+    .footer-forth-col button#button-addon2 {
+        padding: 2px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img-top img {
+        width: 100%;
+    }
+    .infotech-header-logo img {
+        max-width: 90%;
+    }
+    .menu-items ul {
+        text-align: end;
+    }
+    .navBar-bottom-right.d-flex.justify-content-between.align-items-center {
+        justify-content: end !important;
+    }
+    .navBar-bottom-right .dropdown {
+        border: 1px solid var(--border-one);
+        margin-right: 10%;
+    }
+    .navBar-social-icon a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+    .get-support {
+        padding: 14px 20px;
+    }
+    .navBar-bottom{
+        padding: 14px;
+    }
+    img.img-bottom-style-one {
+        width: 57%;
+    }
+    .img-bottom .img-bottom-style {
+        position: absolute;
+        top: -80px;
+        left: 61%;
+        width: 39%;
+    }
+    .our-company-right-card .ellipse {
+        position: absolute;
+        top: 68px;
+        right: -28px;
+        width: 32%;
+    }
+    h1 {
+        font-size: 46px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 50px;
+        color: var(--primary-color-white);
+    }
+    .navBar-slider .item h1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .navBar-top-left ul li {
+        display: inline-block;
+        margin-right: 0px;
+        padding: 10px 14px;
+    }
+    .menu-items li {
+        margin-right: 14px;
+    }
+    .menu-items a {
+    font-size: 15px;
+    }
+    .our-company-left-card ul li {
+        display: inline-block;
+        margin-bottom: 12px !important;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+    .solution-items {
+        width: 100%;
+    }
+    .our-company-left-card ul li i {
+        width: auto;
+        height: auto;
+        color: var(--button-color);
+    }
+    .p-335 {
+        padding: 135px 135px 83px 135px;
+    }
+    .experience-card {
+        top: 26%;
+        right: -35px;
+    }
+    .navBar-top-left ul li p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .menu-items ul li p a {
+        font-size: 14px;
+    }
+    .menu-items ul li p a {
+        font-size: 13px;
+    }
+    .col-lg-7 {
+        padding: 0px;
+    }
+    .navBar-bottom-right button#dropdownMenuButton1 {
+        padding: 3px;
+        font-size: 14px;
+    }
+    section.hero-section:before {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navBar-top {
+        display: none;
+    }
+    .img-top img {
+        width: 100%;
+    }
+    .infotech-header-logo img {
+        max-width: 90%;
+    }
+    .mobile-d-none {
+        display: none;
+    }
+    .infotech-header-logo {
+        display: inline-block;
+    }
+    .menu-items ul {
+        text-align: end;
+    }
+    .navBar-bottom-right.d-flex.justify-content-between.align-items-center {
+        justify-content: end !important;
+    }
+    .navBar-bottom-right .dropdown {
+        border: 1px solid var(--border-one);
+        margin-right: 10%;
+    }
+    .navBar-social-icon a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+    .get-support {
+        padding: 14px 20px;
+    }
+    .navBar-bottom{
+        padding: 14px;
+        position: relative;
+    }
+    img.img-bottom-style-one {
+        width: 57%;
+    }
+    .img-bottom .img-bottom-style {
+        position: absolute;
+        top: -80px;
+        left: 61%;
+        width: 39%;
+    }
+    .our-company-right-card .ellipse {
+        position: absolute;
+        top: 68px;
+        right: -28px;
+        width: 32%;
+    }
+    h1 {
+        font-size: 46px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 50px;
+        color: var(--primary-color-white);
+    }
+    .navBar-slider .item h1 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .navBar-top-left ul li {
+        display: inline-block;
+        margin-right: 0px;
+        padding: 10px 14px;
+    }
+    .menu-items li {
+        margin-right: 14px;
+    }
+    .menu-items a {
+    font-size: 15px;
+    }
+    .our-company-left-card ul li {
+        display: inline-block;
+        margin-bottom: 12px !important;
+        margin-right: 0px;
+        font-size: 14px;
+    }
+    .solution-items {
+        width: 100%;
+    }
+    .our-company-left-card ul li i {
+        width: auto;
+        height: auto;
+        color: var(--button-color);
+    }
+    .p-335 {
+        padding: 135px 135px 83px 135px;
+    }
+    .experience-card {
+        top: 26%;
+        right: -35px;
+    }
+    .navBar-top-left ul li p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .menu-items ul li p a {
+        font-size: 14px;
+    }
+    .menu-items ul li p a {
+        font-size: 13px;
+    }
+    .col-lg-7 {
+        padding: 0px;
+    }
+    .navBar-bottom-right button#dropdownMenuButton1 {
+        padding: 3px;
+        font-size: 14px;
+    }
+    section.hero-section:before {
+        width: 100%;
+        height: 50%;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+
+
+    .hamburger {
+        display: inline-block;
+        position: absolute;
+        width: 24px;
+        right: 38px;
+    }
+
+    .nav-menu-list {
+        /* display: none; */
+        display: block;
+    }
+
+    li.nav-itme {
+        display: block;
+    }
+
+    div#scrollNavbar {
+        position: fixed;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .nav-menu-ul.main {
+        display: none;
+    }
+
+    .nav-menu-list {
+        display: block;
+    }
+    
+
+
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    ul.nav-ul.scroll {
+        display: none;
+    }
+
+    .nav-menu-ul.scroll {
+        display: block;
+    }
+
+    .hamburger.scroll {
+        display: block;
+    }
+
+    .hamburger.main {
+        display: block;
+    }
+
+    .nav-menu-list {
+        display: none;
+    }
+
+    .nav-menu-ul.main {
+        display: block;
+    }
+
+    li.nav-itme {
+        display: block;
+    }
+
+    div#scrollNavbar {
+        position: fixed;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .nav-menu-ul.main {
+        display: none;
+    }
+
+    .nav-menu-list {
+        display: block;
+    }
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 481px) and (max-width: 595px) {
+    .logo img {
+        width: 65%;
+    }
+
+    .title {
+        padding: 63px 0;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+
+    .title h4 {
+        letter-spacing: 2px;
+        font-size: 22px;
+    }
+
+    .title h6 {
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .butn {
+        padding: 6px 15px;
+    }
+
+    .butn span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 60%;
+    }
+}
