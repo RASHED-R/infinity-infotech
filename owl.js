@@ -19,7 +19,7 @@ $(function () {
     $('#hero-section-slider-active').owlCarousel({
         margin: 8,
         nav: true,
-        items: 2,
+        items: 1,
         // navText: ["<i class='fa-solid fa-chevron-left our-solution-1 our-solution-left'></i>", "<i class='fa-solid fa-chevron-right our-solution-1 our-solution-right'></i>"],
         loop: true,
         responsive: {
@@ -59,6 +59,28 @@ $(function () {
                 items: 1,
                 nav: false,
                 loop: true,
+            },
+        },
+    })
+});
+$(function () {
+    $('#community-slider-active').owlCarousel({
+        margin: 8,
+        items: 1,
+        // navText: ["<i class='fa-solid fa-chevron-left our-solution-1 our-solution-left'></i>", "<i class='fa-solid fa-chevron-right our-solution-1 our-solution-right'></i>"],
+        loop: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+            768: {
+                items: 2,
+                nav: false,
+            },
+            1000: {
+                items: 3,
+                nav: false,
             },
         },
     })

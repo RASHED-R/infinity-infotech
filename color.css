@@ -1,10 +1,12 @@
-:root{
+:root {
     /* color variable */
-    --primary-color-white:#fff;
-    --border-one:#D9D9D9;
+    --primary-color-white: #fff;
+    --border-one: #D9D9D9;
     --font-color-black: #000;
     --font-hover-color: #00ADEE;
     --button-color: #00ADEE;
     --button-color-active: #027ba7;
-    --font-color-two:#666666;
+    --font-color-two: #666666;
+    --heading-color: #232323;
+    --section-color-1: #F3F6FB;
 }

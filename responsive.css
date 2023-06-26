@@ -19,11 +19,11 @@
     }
     /* sub menu */
     .item-button:hover>.sub-menu {
-        top: 143px;
-    }
-    .navBar-bottom{
-        padding: 14px;
-    }
+    visibility: visible;
+    opacity: 1;
+    top: 60px;
+    z-index: 1000;
+}
     .navBar-top-left ul li p {
         color: var(--primary-color-white);
         font-size: 14px;
